@@ -1,0 +1,12 @@
+{
+  "final network": "NN \u00b7 structured + text, settings {'dropout': 0.2, 'weight_decay': 0.0001}, epochs per seed [1, 2, 1, 2, 2]",
+  "language model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41, 384 numbers per description",
+  "2023 coverage, final network": "5% effort: 35.9% (27.8%\u201343.5%); 10% effort: 57.9% (49.6%\u201365.8%); 26% effort: 75.9% (68.3%\u201382.3%)",
+  "2023 coverage, 03's final model": "5% effort: 49.0% (40.0%\u201356.7%); 10% effort: 62.1% (53.5%\u201369.7%); 26% effort: 75.2% (67.8%\u201382.1%)",
+  "2023, network minus 03 at 10%": "-4.1% (-10.6% to +2.3%), not clear",
+  "2023, meaning added to the structured fields at 10%": "+4.8% (+0.0% to +9.9%), not clear",
+  "2024 coverage, final network": "5% effort: 45.6% (37.2%\u201353.6%); 10% effort: 57.7% (50.0%\u201366.1%); 26% effort: 82.6% (76.2%\u201388.3%)",
+  "2024, network minus 03 at 10%": "-18.8% (-25.7% to -11.1%)",
+  "2024, network minus EPSS at 10%, all CVEs": "day 1: +23.1% (+13.6% to +33.2%); day 7: +1.3% (-9.3% to +12.4%), not clear; day 30: -16.8% (-25.9% to -6.9%)",
+  "2024, network minus EPSS at 10%, equal information": "day 1: +35.9% (+24.4% to +47.6%); day 7: +19.7% (+1.9% to +36.6%); day 30: -7.4% (-23.3% to +10.9%), not clear"
+}

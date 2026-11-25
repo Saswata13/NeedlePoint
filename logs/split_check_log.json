@@ -1,0 +1,43 @@
+{
+  "started": "2026-11-15T13:21:56-08:00",
+  "checks": {
+    "S0-evaluation-selftest": {
+      "verdict": "PASS",
+      "tests": 3,
+      "failed": []
+    },
+    "S1-inputs-from-03": {
+      "verdict": "PASS",
+      "selection_sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+      "failed": []
+    },
+    "S2-model-reproduced": {
+      "verdict": "PASS",
+      "final_model": "LR \u00b7 structured + text",
+      "failed": []
+    },
+    "S3-designs-checked": {
+      "verdict": "PASS",
+      "repeats": 3,
+      "folds": 5,
+      "seconds": 852,
+      "failed": []
+    }
+  },
+  "files": [
+    "results\\q2_split_check.csv",
+    "results\\q2_split_check_differences.csv",
+    "results\\q2_split_check.json",
+    "figures\\q2_split_check.png",
+    "results\\q2_split_check_summary.json"
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "selection_sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+  "finished": "2026-11-15T13:37:06-08:00"
+}

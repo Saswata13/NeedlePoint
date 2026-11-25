@@ -1,0 +1,66 @@
+{
+  "started": "2026-11-15T20:04:23-08:00",
+  "checks": {
+    "A1-evaluation-selftest": {
+      "verdict": "PASS",
+      "tests": 6,
+      "failed": []
+    },
+    "B1-inputs-from-03": {
+      "verdict": "PASS",
+      "openings": 1,
+      "failed": []
+    },
+    "B2-epss-benchmark": {
+      "verdict": "PASS",
+      "versions": {
+        "v2023.03.01": 115452
+      },
+      "scored": {
+        "1": 0.9196,
+        "7": 0.9834,
+        "30": 0.9867
+      },
+      "failed": []
+    },
+    "D1-equal-information": {
+      "verdict": "PASS",
+      "exploited_kept": {
+        "1": 96,
+        "7": 71,
+        "30": 54
+      },
+      "failed": []
+    },
+    "E1-inclusion-selftest": {
+      "verdict": "PASS",
+      "tests": 3,
+      "failed": []
+    }
+  },
+  "files": [
+    "results\\q4_epss_shape.csv",
+    "results\\q4_all_cves.csv",
+    "results\\q4_differences.csv",
+    "figures\\q4_coverage.png",
+    "results\\q4_listing_timing.csv",
+    "figures\\q4_listing_timing.png",
+    "results\\q4_equal_information.csv",
+    "results\\q4_sensitivity.csv",
+    "results\\q4_overlap.csv",
+    "figures\\q4_disagreement.png",
+    "results\\q4_disagreement_publishers.csv",
+    "results\\q4_summary.json",
+    "data\\processed\\q4_scores_test.parquet"
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "selection_sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+  "finished": "2026-11-15T20:05:05-08:00"
+}

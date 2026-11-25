@@ -1,0 +1,8 @@
+{
+  "final network": "NN \u00b7 structured + text, settings {'dropout': 0.2, 'weight_decay': 0.0001}, epochs per seed [1, 2, 1, 2, 2]",
+  "language model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41, 384 numbers per description",
+  "2023 coverage, final network": "5% effort: 35.9% (27.8%\u201343.5%); 10% effort: 57.9% (49.6%\u201365.8%); 26% effort: 75.9% (68.3%\u201382.3%)",
+  "2023 coverage, 03's final model": "5% effort: 49.0% (40.0%\u201356.7%); 10% effort: 62.1% (53.5%\u201369.7%); 26% effort: 75.2% (67.8%\u201382.1%)",
+  "2023, network minus 03 at 10%": "-4.1% (-10.6% to +2.3%), not clear",
+  "2023, meaning added to the structured fields at 10%": "+4.8% (+0.0% to +9.9%), not clear"
+}

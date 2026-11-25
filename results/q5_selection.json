@@ -1,0 +1,104 @@
+{
+  "sha256": "9fadc43620319db5a50095a75968137dba4b9e87fdab54b23d9b482fdf233628",
+  "frozen_at": "2026-11-15T23:09:50-08:00",
+  "final_network": "NN \u00b7 structured + text",
+  "candidates": {
+    "NN \u00b7 structured": {
+      "feature_set": "structured",
+      "config": 0,
+      "params": {
+        "dropout": 0.2,
+        "weight_decay": 0.0001
+      },
+      "epochs": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "NN \u00b7 text": {
+      "feature_set": "text",
+      "config": 0,
+      "params": {
+        "dropout": 0.2,
+        "weight_decay": 0.0001
+      },
+      "epochs": [
+        5,
+        3,
+        7,
+        9,
+        4
+      ]
+    },
+    "NN \u00b7 structured + text": {
+      "feature_set": "structured + text",
+      "config": 0,
+      "params": {
+        "dropout": 0.2,
+        "weight_decay": 0.0001
+      },
+      "epochs": [
+        1,
+        2,
+        1,
+        2,
+        2
+      ]
+    }
+  },
+  "language_model": {
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  "settings": {
+    "hidden": [
+      128,
+      32
+    ],
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 30,
+    "patience": 5,
+    "grid": [
+      {
+        "dropout": 0.2,
+        "weight_decay": 0.0001
+      },
+      {
+        "dropout": 0.2,
+        "weight_decay": 0.001
+      },
+      {
+        "dropout": 0.5,
+        "weight_decay": 0.0001
+      },
+      {
+        "dropout": 0.5,
+        "weight_decay": 0.001
+      }
+    ],
+    "seeds": [
+      510,
+      511,
+      512,
+      513,
+      514
+    ],
+    "min_category": 20,
+    "efforts": [
+      0.05,
+      0.1,
+      0.26
+    ],
+    "primary_effort": 0.1,
+    "text": "cleaned: sentences stating exploitation removed"
+  },
+  "validation_coverage": {
+    "NN \u00b7 structured": 0.531034,
+    "NN \u00b7 text": 0.537931,
+    "NN \u00b7 structured + text": 0.57931
+  }
+}

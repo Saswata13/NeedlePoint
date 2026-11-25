@@ -1,0 +1,127 @@
+{
+  "started": "2026-11-10T13:58:58-08:00",
+  "checks": {
+    "A1-key-loaded": {
+      "verdict": "PASS",
+      "source": ".env file",
+      "length": 36
+    },
+    "A2-windows": {
+      "verdict": "PASS",
+      "windows": 28,
+      "problems": []
+    },
+    "A3-parser-selftest": {
+      "verdict": "PASS",
+      "tests": 10,
+      "failed": []
+    },
+    "B1-nvd-windows": {
+      "verdict": "PASS",
+      "finished": 28,
+      "of": 28,
+      "failed": []
+    },
+    "B2-nvd-combined": {
+      "verdict": "PASS",
+      "records": 200978,
+      "live": 187219,
+      "expected": 200978,
+      "expected_live": 187219,
+      "duplicates": 0,
+      "failed": []
+    },
+    "C1-kev-snapshot": {
+      "verdict": "PASS",
+      "entries": 1779,
+      "launch_day_entries": 287,
+      "failed": []
+    },
+    "D1-label-selftest": {
+      "verdict": "PASS",
+      "tests": 10,
+      "failed": []
+    },
+    "D2-analysis-table": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "exploited": {
+        "pre-KEV": 159,
+        "train": 128,
+        "validate": 145,
+        "test": 149
+      },
+      "failed": []
+    },
+    "D3-table-saved": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "columns": 35,
+      "unknown": [],
+      "failed": []
+    },
+    "E1-epss-days": {
+      "verdict": "WARN",
+      "saved": 396,
+      "of": 397,
+      "missing": [
+        "2024-12-01"
+      ]
+    },
+    "E2-epss-benchmark": {
+      "verdict": "WARN",
+      "rows": 119859,
+      "coverage": {
+        "1": 0.9196,
+        "7": 0.9834,
+        "30": 0.9867
+      },
+      "model_versions": {
+        "v2023.03.01": 115452
+      }
+    }
+  },
+  "sources": {
+    "NVD CVE API 2.0": {
+      "accessed": "2026-11-10T14:18:51-08:00",
+      "windows": 28,
+      "endpoint": "https://services.nvd.nist.gov/rest/json/cves/2.0"
+    },
+    "CISA KEV catalog": {
+      "accessed": "2026-11-10T14:18:59-08:00",
+      "catalog_version": "2026.11.10",
+      "date_released": "2026-11-10T19:03:29.8375Z",
+      "count": 1779,
+      "file": "data\\raw\\kev\\kev_2026.11.10.parquet"
+    },
+    "EPSS daily files (FIRST)": {
+      "accessed": "2026-11-10T14:29:35-08:00",
+      "days_downloaded": 396,
+      "days_missing": [
+        "2024-12-01"
+      ]
+    }
+  },
+  "files": {
+    "nvd_2016_2024": "data\\interim\\nvd_2016_2024.parquet",
+    "kev_snapshot": "data\\raw\\kev\\kev_2026.11.10.parquet",
+    "analysis_table": "data\\processed\\analysis_table.parquet",
+    "column_dictionary": "data\\processed\\analysis_table_columns.csv",
+    "epss_benchmark": "data\\processed\\epss_benchmark.parquet"
+  },
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "requests": "2.34.2",
+    "pyarrow": "23.0.1"
+  },
+  "file_sizes_mb": {
+    "nvd_2016_2024": 29.37,
+    "kev_snapshot": 0.29,
+    "analysis_table": 28.8,
+    "column_dictionary": 0.0,
+    "epss_benchmark": 1.04
+  },
+  "finished": "2026-11-10T14:29:41-08:00"
+}

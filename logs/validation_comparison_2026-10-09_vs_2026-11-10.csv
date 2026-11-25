@@ -1,0 +1,23 @@
+figure,before,now,change,expected,status
+"NVD records, whole catalogue",403391,421911,18520.0,grows,ok
+KEV catalogue entries,1739,1773,34.0,grows,ok
+EPSS CVEs scored,384534,402199,17665.0,grows,ok
+KEV entries dated to its first day,287,287,0.0,same,ok
+Train positives (365-day label),128,128,0.0,same,ok
+Validate positives (365-day label),145,145,0.0,same,ok
+Test positives (365-day label),149,149,0.0,same,ok
+Pre-KEV CVEs listed within 365 days,159,159,0.0,same,ok
+Pre-KEV CVEs ever listed,683,683,0.0,grows,ok
+Window start is inclusive,True,True,,same,ok
+Window end is inclusive,False,False,,same,ok
+Sample window: records,10182,10182,0.0,may drift,ok
+Sample window: live records,9302,9302,0.0,may drift,ok
+Sample window: share with a CNA score,0.5911631907116749,0.5911631907116749,0.0,may drift,ok
+Sample window: CVEs ever in KEV,51,51,0.0,grows,ok
+CVEs published 2016-2024,200978,200978,0.0,may drift,ok
+"CVEs published 2016-2024, live",187219,187219,0.0,may drift,ok
+"EPSS the day after publication, CVE-2022-42475",0.01156,0.01156,0.0,same,ok
+"EPSS the day after publication, CVE-2022-44877",0.00885,0.00885,0.0,same,ok
+"EPSS the day after publication, CVE-2023-21674",0.00885,0.00885,0.0,same,ok
+"EPSS the day after publication, CVE-2023-22952",0.00885,0.00885,0.0,same,ok
+"EPSS the day after publication, CVE-2023-21839",0.00885,0.00885,0.0,same,ok

@@ -1,0 +1,13 @@
+{
+  "final model": "LR \u00b7 structured + text, settings {'C': 0.1} (chosen on 2023 at 10% effort)",
+  "2023 coverage, final model": "5% effort: 49.0% (40.0%\u201356.7%); 10% effort: 62.1% (53.5%\u201369.7%); 26% effort: 75.2% (67.8%\u201382.1%)",
+  "2023 coverage, CVSS baseline": "5% effort: 23.2% (16.9%\u201330.4%); 10% effort: 31.0% (24.3%\u201338.7%); 26% effort: 46.6% (40.5%\u201353.2%)",
+  "2023 coverage, publisher baseline": "5% effort: 28.5% (21.3%\u201336.1%); 10% effort: 55.2% (47.1%\u201363.8%); 26% effort: 67.5% (60.1%\u201374.6%)",
+  "2023 rules": "score 7.0+: effort 25%, coverage 49%; 7.0+ or no score: effort 65%, coverage 90%",
+  "text adds (2023)": "+5.5% (+0.7% to +10.4%) at 10% effort; PyTorch extension: go",
+  "description audit": "148 training/validation descriptions state exploitation; 148 histories retrieved; of the 37 exploited: 4 had the phrase at publication, 6 gained it later (6 of them already in KEV before publication), 27 cannot be dated; models use cleaned text",
+  "2024 coverage, final model": "5% effort: 57.7% (49.4%\u201366.0%); 10% effort: 76.5% (68.8%\u201383.5%); 26% effort: 90.6% (85.5%\u201395.0%)",
+  "2024 coverage, CVSS baseline": "5% effort: 31.7% (24.3%\u201339.4%); 10% effort: 36.7% (28.9%\u201344.9%); 26% effort: 52.7% (45.8%\u201359.5%)",
+  "2024 coverage, publisher baseline": "5% effort: 32.7% (26.2%\u201340.0%); 10% effort: 64.5% (56.8%\u201371.9%); 26% effort: 75.8% (68.7%\u201382.4%)",
+  "2024 rules": "score 7.0+: effort 32%, coverage 62%; 7.0+ or no score: effort 62%, coverage 88%"
+}

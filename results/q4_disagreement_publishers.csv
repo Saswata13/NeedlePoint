@@ -1,0 +1,29 @@
+publisher,final_model_only,epss_day1_only,neither,exploited
+Microsoft Corporation,7.0,2.0,0.0,31
+MITRE,6.0,0.0,5.0,12
+Apple Inc.,5.0,0.0,0.0,6
+Chrome,5.0,0.0,0.0,7
+HackerOne,4.0,0.0,1.0,6
+"Palo Alto Networks, Inc.",4.0,0.0,0.0,7
+VulnCheck,4.0,0.0,0.0,4
+Progress Software Corporation,3.743972179289026,0.0,0.0,4
+Apache Software Foundation,3.0,0.0,2.0,5
+"Citrix Systems, Inc.",3.0,0.0,1.0,4
+VMware,3.0,0.0,0.0,3
+"Cisco Systems, Inc.",2.0,1.0,1.0,5
+"Fortinet, Inc.",2.0,0.0,0.0,4
+"GitHub, Inc.",2.0,0.0,0.0,2
+ServiceNow,2.0,0.0,0.0,2
+ivanti,2.0,0.0,2.0,5
+Arm Limited,1.0,0.0,0.0,1
+Atlassian,1.0,0.0,0.0,1
+BeyondTrust,1.0,0.0,1.0,2
+Cybersecurity and Infrastructure Security Agency (CISA) U.S. Civilian Government,1.0,0.0,1.0,3
+DirectCyber,1.0,0.0,0.0,1
+ESET,1.0,0.0,1.0,2
+Google Inc.,1.0,0.0,0.0,1
+JetBrains s.r.o.,1.0,0.0,0.0,1
+"Qualcomm, Inc.",1.0,0.0,0.0,1
+Zyxel Corporation,1.0,0.0,0.0,1
+Android (associated with Google Inc. or Open Handset Alliance),0.0,1.0,0.0,1
+Google Devices,0.0,1.0,0.0,3

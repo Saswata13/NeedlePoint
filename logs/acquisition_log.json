@@ -1,0 +1,164 @@
+{
+  "started": "2026-11-12T22:53:27-08:00",
+  "checks": {
+    "A1-key-loaded": {
+      "verdict": "PASS",
+      "source": ".env file",
+      "length": 36
+    },
+    "A2-windows": {
+      "verdict": "PASS",
+      "windows": 28,
+      "problems": []
+    },
+    "A3-parser-selftest": {
+      "verdict": "PASS",
+      "tests": 10,
+      "failed": []
+    },
+    "B1-nvd-windows": {
+      "verdict": "PASS",
+      "finished": 28,
+      "of": 28,
+      "failed": []
+    },
+    "B2-nvd-combined": {
+      "verdict": "PASS",
+      "records": 200978,
+      "live": 187219,
+      "expected": 200978,
+      "expected_live": 187219,
+      "duplicates": 0,
+      "failed": []
+    },
+    "C1-kev-snapshot": {
+      "verdict": "PASS",
+      "version": "2026.11.10",
+      "origin": "pinned snapshot",
+      "entries": 1779,
+      "launch_day_entries": 287,
+      "failed": []
+    },
+    "D1-label-selftest": {
+      "verdict": "PASS",
+      "tests": 10,
+      "failed": []
+    },
+    "D2-analysis-table": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "exploited": {
+        "pre-KEV": 159,
+        "train": 128,
+        "validate": 145,
+        "test": 149
+      },
+      "failed": []
+    },
+    "D3-table-saved": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "columns": 35,
+      "unknown": [],
+      "failed": []
+    },
+    "E1-epss-days": {
+      "verdict": "WARN",
+      "saved": 396,
+      "of": 397,
+      "missing": [
+        "2024-12-01"
+      ]
+    },
+    "E2-epss-benchmark": {
+      "verdict": "WARN",
+      "rows": 119859,
+      "coverage": {
+        "1": 0.9196,
+        "7": 0.9834,
+        "30": 0.9867
+      },
+      "model_versions": {
+        "v2023.03.01": 115452
+      }
+    },
+    "F1-data-fingerprints": {
+      "verdict": "PASS",
+      "compared_with": "2026-11-12T22:35:14-08:00",
+      "changed": [],
+      "missing": []
+    }
+  },
+  "sources": {
+    "NVD CVE API 2.0": {
+      "accessed": "2026-11-12T22:53:28-08:00",
+      "windows": 28,
+      "endpoint": "https://services.nvd.nist.gov/rest/json/cves/2.0"
+    },
+    "CISA KEV catalog": {
+      "accessed": "2026-11-12T22:53:31-08:00",
+      "catalog_version": "2026.11.10",
+      "date_released": "2026-11-10T19:03:29.8375Z",
+      "count": 1779,
+      "file": "data\\raw\\kev\\kev_2026.11.10.parquet",
+      "origin": "pinned snapshot",
+      "downloaded": "2026-11-12T20:49:00-08:00"
+    },
+    "EPSS daily files (FIRST)": {
+      "accessed": "2026-11-12T22:53:49-08:00",
+      "days_downloaded": 0,
+      "days_missing": [
+        "2024-12-01"
+      ]
+    }
+  },
+  "files": {
+    "nvd_2016_2024": "data\\interim\\nvd_2016_2024.parquet",
+    "kev_snapshot": "data\\raw\\kev\\kev_2026.11.10.parquet",
+    "analysis_table": "data\\processed\\analysis_table.parquet",
+    "column_dictionary": "data\\processed\\analysis_table_columns.csv",
+    "epss_benchmark": "data\\processed\\epss_benchmark.parquet"
+  },
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "requests": "2.34.2",
+    "pyarrow": "23.0.1"
+  },
+  "fingerprints": {
+    "analysis_table": {
+      "rows": 187219,
+      "content_sha256": "2979fb727e87c33ab5581c7ac50a6bbe62741d828aede1808d4c663b23352ffe",
+      "file_sha256": "ccebb5f52eb76acd1243164ccdecf2ea93be044b9b92c631bce23c1a5c285145"
+    },
+    "column_dictionary": {
+      "rows": 35,
+      "content_sha256": "2ccf6a5ba79265fa564f012375d67f49102e121366a82e107fc6b6a7d4d43df9",
+      "file_sha256": "4b3e42d87679c22da3074e9286b3a24d45e9a7c52412c7af6550563a05dbe803"
+    },
+    "epss_benchmark": {
+      "rows": 119859,
+      "content_sha256": "94a2fa68080eb9a5c47947e1b0e81aed983cd204eb47836cd187338c3f0759bc",
+      "file_sha256": "db5bdd8c1e1cb8ab07999c7a75c04fd2a4c97c470763af303814d2b4e780e0e5"
+    },
+    "nvd_2016_2024": {
+      "rows": 200978,
+      "content_sha256": "b067df2bab983a92b5e5f48bec3ce8b7685dfcf434bf036cd4650d04c2298f5d",
+      "file_sha256": "17aa4c269eb979af51554bcc3bf6f909925ef1ef95534b2c0be533ca6c7f96ac"
+    },
+    "kev_snapshot": {
+      "rows": 1779,
+      "content_sha256": "777cbc8f44e2729c627b00f07a83c960abbe4a8a1c45a1ff01c3048f4cf886d4",
+      "file_sha256": "7bfbbc8347717523c46c12b61aaaac82afcd2ea3ae280145f253dd2cf4dff6da"
+    }
+  },
+  "file_sizes_mb": {
+    "nvd_2016_2024": 29.37,
+    "kev_snapshot": 0.29,
+    "analysis_table": 28.8,
+    "column_dictionary": 0.0,
+    "epss_benchmark": 1.04
+  },
+  "finished": "2026-11-12T22:54:00-08:00"
+}

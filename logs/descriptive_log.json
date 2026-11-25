@@ -1,0 +1,71 @@
+{
+  "started": "2026-11-13T16:57:54-08:00",
+  "checks": {
+    "A1-statistics-selftest": {
+      "verdict": "PASS",
+      "tests": 7,
+      "failed": []
+    },
+    "B1-table-loaded": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "exploited": {
+        "pre-KEV": 159,
+        "test": 149,
+        "train": 128,
+        "validate": 145
+      },
+      "failed": []
+    },
+    "B2-publisher-names": {
+      "verdict": "PASS",
+      "source": "cache",
+      "resolved": 1.0
+    },
+    "B3-cvss-parser-selftest": {
+      "verdict": "PASS",
+      "tests": 4,
+      "failed": []
+    },
+    "B4-derived-columns": {
+      "verdict": "PASS",
+      "rows": 97137,
+      "failed": []
+    },
+    "C0-rate-table-selftest": {
+      "verdict": "PASS",
+      "tests": 4,
+      "failed": []
+    },
+    "D1-timing-complete": {
+      "verdict": "PASS",
+      "exploited": 422
+    }
+  },
+  "files": [
+    "results\\q1_rate_by_period_and_year.csv",
+    "results\\q1_rate_by_severity.csv",
+    "figures\\q1_severity.png",
+    "results\\q1_rate_by_cvss_component.csv",
+    "results\\q1_rate_by_weakness.csv",
+    "figures\\q1_weakness.png",
+    "results\\q1_rate_by_publisher.csv",
+    "figures\\q1_publisher_concentration.png",
+    "figures\\q1_top_publishers.png",
+    "results\\q1_unseen_publishers.csv",
+    "results\\q1_triage_rules.csv",
+    "figures\\q1_triage.png",
+    "results\\q3_timing_by_year.csv",
+    "results\\q3_change_vs_2022.csv",
+    "figures\\q3_time_to_listing.png",
+    "figures\\q3_median_delay.png",
+    "results\\q3_late_listings.csv",
+    "results\\descriptive_summary.json"
+  ],
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0"
+  },
+  "finished": "2026-11-13T16:58:18-08:00"
+}

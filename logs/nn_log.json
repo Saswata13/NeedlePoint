@@ -1,0 +1,86 @@
+{
+  "started": "2026-11-15T21:55:51-08:00",
+  "checks": {
+    "A1-evaluation-selftest": {
+      "verdict": "PASS",
+      "tests": 6,
+      "failed": []
+    },
+    "B1-table-loaded": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "failed": []
+    },
+    "B2-inputs-permitted": {
+      "verdict": "PASS",
+      "features": [
+        "cna",
+        "description",
+        "cvss_score",
+        "cvss_vector",
+        "cvss_version",
+        "cwe_primary"
+      ],
+      "failed": []
+    },
+    "C1-description-masking": {
+      "verdict": "PASS",
+      "changed": 148,
+      "failed": []
+    },
+    "D0-cvss-parser-selftest": {
+      "verdict": "PASS",
+      "tests": 4,
+      "failed": []
+    },
+    "C2-embeddings": {
+      "verdict": "PASS",
+      "dimension": 384,
+      "model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "cut": {
+        "train": 0.016356457980823462,
+        "validate": 0.015685730149916713
+      },
+      "failed": []
+    },
+    "D1-network-selftest": {
+      "verdict": "PASS",
+      "tests": 4,
+      "failed": []
+    },
+    "E1-networks-trained": {
+      "verdict": "PASS",
+      "networks": 60,
+      "seconds": 307,
+      "failed": []
+    },
+    "G1-selection-frozen": {
+      "verdict": "PASS",
+      "sha256": "9fadc43620319db5a50095a75968137dba4b9e87fdab54b23d9b482fdf233628",
+      "final_network": "NN \u00b7 structured + text"
+    }
+  },
+  "files": [
+    "data\\processed\\embeddings\\train.npz",
+    "data\\processed\\embeddings\\validate.npz",
+    "results\\q5_validation_grid.csv",
+    "results\\q5_validation_models.csv",
+    "data\\processed\\nn_scores_validate.parquet",
+    "results\\q5_validation_differences.csv",
+    "results\\q5_seed_spread.csv",
+    "figures\\q5_seed_spread.png",
+    "figures\\q5_coverage_validation.png",
+    "results\\q5_selection.json",
+    "results\\q5_summary.json"
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.0",
+    "torch": "2.15.0+cpu",
+    "sentence-transformers": "6.3.0"
+  },
+  "evaluate_test": false,
+  "finished": "2026-11-15T22:58:14-08:00"
+}

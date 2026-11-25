@@ -1,0 +1,11 @@
+{
+  "base rate": "0.43% of CVEs published Nov 2021\u20132024 were listed in KEV within 365 days (422 of 97,137); by period: Nov 2021\u20132022 0.45%, 2023 0.50%, 2024 0.37%",
+  "no publisher score": "CVEs without a publisher score are 41% of all CVEs and 41% of exploited ones",
+  "critical vs medium": "Critical: 2.14% exploited; High: 0.52%; Medium: 0.14%",
+  "high-or-critical rule": "'Publisher score 7.0+' flags 26% of CVEs and catches 49% of exploited ones (precision 0.81%)",
+  "publisher concentration": "taking publishers by exploitation rate, 7.6% of CVEs hold half of the exploited ones; the 5 publishers with the most exploited CVEs hold 53% of them and 28% of all CVEs",
+  "unseen publishers (validation)": "2% of 2023 CVEs and 3% of exploited ones come from publishers absent from the training period",
+  "listed on or before publication": "2022: 35%; 2023: 32%; 2024: 27%",
+  "median delay": "2022: 14 days (3.5\u201325); 2023: 4 days (2\u20137); 2024: 7 days (3\u201319)",
+  "change since 2022": "2023: -10 days (-22 to +0.5), not distinguishable from chance; 2024: -7 days (-20 to +9), not distinguishable from chance"
+}

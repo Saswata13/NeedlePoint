@@ -1,0 +1,8 @@
+{
+  "final model": "LR \u00b7 structured + text {'C': 0.1} (frozen by 03_model.ipynb)",
+  "clustering": "123 of 273 exploited CVEs share their publisher-week with another exploited CVE",
+  "coverage at 10% effort": "forward (the design used): 62.1% (53.5%\u201369.7%); random, grouped, same size: 61.1% (54.3%\u201368.4%); random, ungrouped, same size: 66.9% (60.3%\u201373.9%); random, ungrouped, all data: 69.7% (62.3%\u201376.7%)",
+  "steps at 10% effort": "drift: learning from the same years: -0.9% (-7.6% to +5.6%); leakage between related CVEs: +5.7% (+2.1% to +9.7%); more training data: +2.8% (-0.8% to +5.8%); total: plain random split vs forward: +7.6% (+1.1% to +13.7%)",
+  "coverage at 26% effort": "forward (the design used): 75.2% (67.8%\u201382.1%); random, grouped, same size: 80.2% (74.7%\u201385.6%); random, ungrouped, same size: 84.6% (79.4%\u201389.5%); random, ungrouped, all data: 89.0% (84.3%\u201393.5%)",
+  "steps at 26% effort": "drift: learning from the same years: +5.1% (-1.4% to +10.9%); leakage between related CVEs: +4.4% (+0.5% to +8.3%); more training data: +4.4% (+1.9% to +7.3%); total: plain random split vs forward: +13.8% (+7.0% to +20.5%)"
+}

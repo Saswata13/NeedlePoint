@@ -1,0 +1,31 @@
+{
+  "comparison": "LR \u00b7 structured + text minus LR \u00b7 structured, coverage at 10% effort, 2023",
+  "change": 0.05517241379310345,
+  "interval": [
+    0.0066182439649647845,
+    0.10416986196319014
+  ],
+  "interval_width": 0.09755161799822536,
+  "decision": "go",
+  "reason": "the description clearly adds coverage beyond the structured fields",
+  "text_alone_vs_random": [
+    {
+      "family": "LR",
+      "change": 0.506896551724138,
+      "low": 0.4289684167350288,
+      "high": 0.5831263899184581
+    },
+    {
+      "family": "GBM",
+      "change": 0.4172413793103449,
+      "low": 0.33445883994418973,
+      "high": 0.5014815366289458
+    }
+  ],
+  "description_audit": {
+    "with_phrase": 148,
+    "histories_retrieved": 148,
+    "phrase_added_after_kev": 6,
+    "text_used": "cleaned (sentences stating exploitation removed)"
+  }
+}

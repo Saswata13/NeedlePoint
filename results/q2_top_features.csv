@@ -1,0 +1,31 @@
+,weight,kind
+publisher: Microsoft Corporation,3.2915726136186927,structured
+publisher: Atlassian,2.061290522243436,structured
+publisher: VMware,2.0171134529864387,structured
+publisher: Chrome,2.001118811631506,structured
+word: mivoice,1.9479579091341253,text
+word: veeam,1.8736199699586376,text
+word: code injection,1.7458210189649983,text
+word: remote,1.7313300538596028,text
+word: zimbra,1.6827270824312153,text
+word: replication,1.6722359434151328,text
+cwe: CWE-665,1.640685631351794,structured
+word: unauthenticated,1.62871009132044,text
+cwe: CWE-121,1.6195986395129676,structured
+word: aka,1.5578875093458384,text
+word: code,1.4850087928301923,text
+word: zcs,1.4566966283279177,text
+word: remote command,1.4394642652741174,text
+word: component mitel,1.4375541393601738,text
+publisher: Apple Inc.,1.4273832720710986,structured
+word: free bug,1.420329014757775,text
+PR: H,-1.9969782006821626,structured
+I: N,-1.9196676566195094,structured
+"publisher: GitHub, Inc.",-1.644171041014963,structured
+cvss_version: 3.0,-1.5222575764736732,structured
+publisher: ICS-CERT,-1.3321332172710765,structured
+publisher: Siemens AG,-1.2739816111484528,structured
+publisher: WPScan,-1.1732284035788814,structured
+AT: missing,-1.1215050879058832,structured
+UI: R,-1.0512296675105328,structured
+publisher: JPCERT/CC,-1.01247745751943,structured

@@ -1,0 +1,99 @@
+{
+  "sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+  "frozen_at": "2026-11-15T13:42:37-08:00",
+  "final_model": "LR \u00b7 structured + text",
+  "best_structured": "LR \u00b7 structured",
+  "best_with_text": "LR \u00b7 structured + text",
+  "candidates": {
+    "LR \u00b7 structured": {
+      "family": "logistic regression",
+      "feature_set": "structured",
+      "config": 0,
+      "params": {
+        "C": 0.01
+      }
+    },
+    "LR \u00b7 text": {
+      "family": "logistic regression",
+      "feature_set": "text",
+      "config": 4,
+      "params": {
+        "C": 1.0
+      }
+    },
+    "LR \u00b7 structured + text": {
+      "family": "logistic regression",
+      "feature_set": "structured + text",
+      "config": 2,
+      "params": {
+        "C": 0.1
+      }
+    },
+    "GBM \u00b7 structured": {
+      "family": "gradient boosting",
+      "feature_set": "structured",
+      "config": 0,
+      "params": {
+        "max_iter": 100,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 20
+      }
+    },
+    "GBM \u00b7 text": {
+      "family": "gradient boosting",
+      "feature_set": "text",
+      "config": 6,
+      "params": {
+        "max_iter": 300,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20
+      }
+    },
+    "GBM \u00b7 structured + text": {
+      "family": "gradient boosting",
+      "feature_set": "structured + text",
+      "config": 4,
+      "params": {
+        "max_iter": 300,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 20
+      }
+    }
+  },
+  "baselines": {
+    "unscored_cvss_band": "High",
+    "publisher_pseudo_cves": 50
+  },
+  "settings": {
+    "min_category": 20,
+    "max_categories": 250,
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "max_df": 0.5,
+      "max_features": 50000,
+      "sublinear_tf": true,
+      "stop_words": "english"
+    },
+    "svd_components": 100,
+    "efforts": [
+      0.05,
+      0.1,
+      0.26
+    ],
+    "primary_effort": 0.1,
+    "seed": 510,
+    "text": "cleaned: sentences stating exploitation removed"
+  },
+  "validation_coverage": {
+    "LR \u00b7 structured": 0.565517,
+    "LR \u00b7 text": 0.606897,
+    "LR \u00b7 structured + text": 0.62069,
+    "GBM \u00b7 structured": 0.482759,
+    "GBM \u00b7 text": 0.517241,
+    "GBM \u00b7 structured + text": 0.544828
+  }
+}

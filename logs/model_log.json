@@ -1,0 +1,93 @@
+{
+  "started": "2026-11-15T13:11:28-08:00",
+  "checks": {
+    "A1-evaluation-selftest": {
+      "verdict": "PASS",
+      "tests": 6,
+      "failed": []
+    },
+    "B1-table-loaded": {
+      "verdict": "PASS",
+      "rows": 187219,
+      "failed": []
+    },
+    "B2-inputs-permitted": {
+      "verdict": "PASS",
+      "features": [
+        "cna",
+        "description",
+        "cvss_score",
+        "cvss_vector",
+        "cvss_version",
+        "cwe_primary"
+      ],
+      "failed": []
+    },
+    "C1-description-masking": {
+      "verdict": "PASS",
+      "changed": 148,
+      "failed": []
+    },
+    "C2-description-history": {
+      "verdict": "PASS",
+      "audited": 148,
+      "retrieved": 148,
+      "added_after_kev": 6
+    },
+    "D0-cvss-parser-selftest": {
+      "verdict": "PASS",
+      "tests": 4,
+      "failed": []
+    },
+    "D1-features-built": {
+      "verdict": "PASS",
+      "words": 25335,
+      "failed": []
+    },
+    "E1-models-trained": {
+      "verdict": "PASS",
+      "fits": 39,
+      "seconds": 105,
+      "failed": []
+    },
+    "F1-pytorch-readiness": {
+      "verdict": "PASS",
+      "installed": {
+        "torch": false,
+        "sentence_transformers": false
+      },
+      "pypi_build": true
+    },
+    "G1-selection-frozen": {
+      "verdict": "PASS",
+      "sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+      "final_model": "LR \u00b7 structured + text"
+    }
+  },
+  "files": [
+    "results\\q2_description_phrases.csv",
+    "results\\q2_description_history.csv",
+    "results\\q2_validation_grid.csv",
+    "results\\q2_validation_models.csv",
+    "data\\processed\\model_scores_validate.parquet",
+    "results\\q2_validation_differences.csv",
+    "figures\\q2_coverage_validation.png",
+    "results\\q2_text_ablation.csv",
+    "figures\\q2_text_ablation.png",
+    "results\\q2_sensitivity_validation.csv",
+    "results\\q2_top_features.csv",
+    "figures\\q2_top_features.png",
+    "results\\q2_pytorch_decision.json",
+    "results\\q2_selection.json",
+    "results\\q2_summary.json"
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "evaluate_test": false,
+  "finished": "2026-11-15T13:14:59-08:00"
+}

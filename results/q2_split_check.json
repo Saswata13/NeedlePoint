@@ -1,0 +1,467 @@
+{
+  "folds": 5,
+  "repeats": 3,
+  "seeds": [
+    510,
+    511,
+    512
+  ],
+  "pool_cves": 57184,
+  "pool_exploited": 273,
+  "publisher_weeks": 4611,
+  "exploited_sharing_a_publisher_week": 123,
+  "final_model": "LR \u00b7 structured + text",
+  "selection_sha256": "86f7a97f7255a4465e881882e555faf5bcf1dba63651c53ee7fa518468716703",
+  "fits": [
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, grouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, grouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, grouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, grouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, grouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2184
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2143
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2169
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2158
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2167
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, all data",
+      "fold": 1,
+      "cves": 45747,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2314
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, all data",
+      "fold": 2,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2275
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, all data",
+      "fold": 3,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2311
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, all data",
+      "fold": 4,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2310
+    },
+    {
+      "repeat": 1,
+      "seed": 510,
+      "design": "random, ungrouped, all data",
+      "fold": 5,
+      "cves": 45748,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2321
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, grouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, grouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, grouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, grouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, grouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2184
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2166
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2144
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2177
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2223
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, all data",
+      "fold": 1,
+      "cves": 45747,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2313
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, all data",
+      "fold": 2,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2322
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, all data",
+      "fold": 3,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2271
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, all data",
+      "fold": 4,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2325
+    },
+    {
+      "repeat": 2,
+      "seed": 511,
+      "design": "random, ungrouped, all data",
+      "fold": 5,
+      "cves": 45748,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2350
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, grouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, grouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, grouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, grouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, grouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 0
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, same size",
+      "fold": 1,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2191
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, same size",
+      "fold": 2,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2164
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, same size",
+      "fold": 3,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2183
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, same size",
+      "fold": 4,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2207
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, same size",
+      "fold": 5,
+      "cves": 28368,
+      "exploited": 128,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2162
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, all data",
+      "fold": 1,
+      "cves": 45747,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2330
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, all data",
+      "fold": 2,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2306
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, all data",
+      "fold": 3,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2309
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, all data",
+      "fold": 4,
+      "cves": 45747,
+      "exploited": 218,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2335
+    },
+    {
+      "repeat": 3,
+      "seed": 512,
+      "design": "random, ungrouped, all data",
+      "fold": 5,
+      "cves": 45748,
+      "exploited": 219,
+      "rows_in_both": 0,
+      "publisher_weeks_in_both": 2314
+    }
+  ]
+}

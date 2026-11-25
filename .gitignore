@@ -1,0 +1,23 @@
+# Secrets: the NVD API key lives only here
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# The full data (458 MB): rebuilt by 00_validate_sources.ipynb and 01_acquire_data.ipynb.
+# The deploy copy keeps its own trimmed data in deploy/cve-triage-app/data/.
+/data/
+
+# The app's model file: rebuilt by app/build_model.py (tied to the installed scikit-learn version)
+/app/model/
+
+# Operating system and editor files
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+~$*
