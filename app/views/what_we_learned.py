@@ -1,4 +1,4 @@
-"""What we learned: the descriptive findings (Q1 and Q3), interactive."""
+"""What we learned: the descriptive findings (questions A and C), interactive."""
 import sys
 from pathlib import Path
 
@@ -14,9 +14,9 @@ import streamlit as st
 from common import WIDE, cm, curve, pct, result, scores_2024, study_counts, table
 import ui  # noqa: E402
 
-ui.hero("What we learned · Q1 and Q3", "What exploited CVEs have in common, and how fast they are listed",
-        "Severity, weakness type, publisher and the parts of the CVSS vector (Q1), and the time from publication to "
-        "a KEV listing (Q3). Every rate comes with a 95% interval.")
+ui.hero("What we learned · Questions A and C", "What exploited CVEs have in common, and how fast they are listed",
+        "Severity, weakness type, publisher and the parts of the CVSS vector (question A), and the time from publication to "
+        "a KEV listing (question C). Every rate comes with a 95% interval.")
 counts = study_counts()
 OVERALL = counts["rate"]
 st.markdown(f"CVEs published Nov 2021–2024 ({counts['cves']:,}), of which **{counts['exploited']}** were listed in KEV "
@@ -44,7 +44,7 @@ def rate_chart(df, label, sort=None, height=None):
     return (bars + err + ref).properties(height=alt.Step(30))
 
 
-tabs = st.tabs(["Severity", "Weakness types", "Publishers", "CVSS details", "Triage rules", "How fast (Q3)"])
+tabs = st.tabs(["Severity", "Weakness types", "Publishers", "CVSS details", "Triage rules", "How fast (C)"])
 
 with tabs[0]:
     sev = result("q1_rate_by_severity")

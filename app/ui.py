@@ -143,8 +143,7 @@ def brand():
 
 def footer():
     html(f'<div class="x-foot"><b>{NAME}</b> · {TAGLINE} Data: NVD CVE API 2.0 (every CVE published 2016–2024, downloaded Nov 10, 2026), '
-         "CISA's Known Exploited Vulnerabilities catalogue (version 2026.11.10) and FIRST's EPSS scores. "
-         "DSCI 510 course project, University of Southern California, Fall 2026.</div>")
+         "CISA's Known Exploited Vulnerabilities catalogue (version 2026.11.10) and FIRST's EPSS scores.</div>")
 
 
 def strip_tags(text):

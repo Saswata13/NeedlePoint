@@ -224,9 +224,9 @@ def pipeline_svg():
 {box(20, 126, 220, 78, 'CISA KEV catalogue', ['which flaws were attacked,', 'and when it was confirmed'], '#eef3fb', '#1f5fa8')}
 {box(20, 218, 220, 78, 'FIRST EPSS', ["the industry's daily", 'prediction score'], '#eef3fb', '#1f5fa8')}
 {box(300, 106, 200, 120, 'One clean table', ['Python, pandas, NumPy:', 'one row per flaw, only what', 'was known on its first day'], '#f5f6f8', '#8a929c')}
-{box(560, 34, 220, 78, 'What goes with attacks?', ['Q1 traits · Q3 timing'], '#e4f4ee', '#14946a')}
-{box(560, 126, 220, 78, 'A ranked to-do list', ['Q2: a model trained on', 'Nov 2021–2023, tested on 2024'], '#e4f4ee', '#14946a')}
-{box(560, 218, 220, 78, 'Against the industry score', ['Q4: the ranking vs EPSS'], '#e4f4ee', '#14946a')}
+{box(560, 34, 220, 78, 'What goes with attacks?', ['A: traits · C: timing'], '#e4f4ee', '#14946a')}
+{box(560, 126, 220, 78, 'A ranked to-do list', ['B: a model trained on', 'Nov 2021–2023, tested on 2024'], '#e4f4ee', '#14946a')}
+{box(560, 218, 220, 78, 'Against the industry score', ['D: the ranking vs EPSS'], '#e4f4ee', '#14946a')}
 {box(840, 106, 140, 120, 'NeedlePoint', ['this app: rank flaws,', 'replay 2024,', 'explore the findings'], '#fff', '#14181f')}
 {arrow(240, 73, 300, 150)}{arrow(240, 165, 300, 166)}{arrow(240, 257, 300, 182)}
 {arrow(500, 150, 560, 73)}{arrow(500, 166, 560, 165)}{arrow(500, 182, 560, 257)}

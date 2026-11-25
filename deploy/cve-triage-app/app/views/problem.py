@@ -256,13 +256,13 @@ ui.svg(story.pipeline_svg())
 
 # ------------------------------------------------------------------------------------------------- 8. questions
 ui.section("08", "The four questions", "What the project sets out to answer")
-qs = [("Q1", "What do attacked flaws have in common on day one?", "Severity, kind of mistake, publisher.",
+qs = [("A", "What do attacked flaws have in common on day one?", "Severity, kind of mistake, publisher.",
        "views/what_we_learned.py", "What we learned"),
-      ("Q2", "Can those traits put new flaws in a better order than severity alone?", "The ranked list above.",
+      ("B", "Can those traits put new flaws in a better order than severity alone?", "The ranked list above.",
        "views/triage.py", "Triage"),
-      ("Q3", "How long after publication are attacks confirmed?", "The race against time.",
+      ("C", "How long after publication are attacks confirmed?", "The race against time.",
        "views/what_we_learned.py", "What we learned"),
-      ("Q4", "How does the ranking compare with the industry's daily score (EPSS)?", "Day-one ranking vs a score "
+      ("D", "How does the ranking compare with the industry's daily score (EPSS)?", "Day-one ranking vs a score "
        "that keeps learning.", "views/model_vs_epss.py", "Model vs EPSS")]
 for code, q, hint, page, label in qs:
     a, b = st.columns([5, 1.4])
