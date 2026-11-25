@@ -6,6 +6,8 @@ DSCI 510 course project (USC, Fall 2026). NeedlePoint ranks new CVEs on the day 
 only what is known that day, by the chance that CISA lists them as exploited (KEV) within a year. It is
 compared with the CVSS score, the publisher's past rate and EPSS.
 
+**Try the app:** https://needlepoint-cve.streamlit.app (public, no sign-in needed)
+
 ## Folder layout
 | Path | Contents |
 |---|---|
