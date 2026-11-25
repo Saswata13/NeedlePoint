@@ -2,7 +2,7 @@
 
 **Find the needle on day one.** Which new software vulnerabilities will actually get attacked?
 
-DSCI 510 course project (USC, Fall 2026). NeedlePoint ranks new CVEs on the day they are published, using
+NeedlePoint ranks new CVEs on the day they are published, using
 only what is known that day, by the chance that CISA lists them as exploited (KEV) within a year. It is
 compared with the CVSS score, the publisher's past rate and EPSS.
 
