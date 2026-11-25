@@ -173,3 +173,7 @@ and every page runs and reproduces notebook 04.
 the live lookup and the explanations; `app/model/final_model.joblib` is written by `app/build_model.py` and is
 specific to the installed scikit-learn version (rebuild after upgrading). The NVD key in `.env` is used for live
 lookups if present (never shown); without it, lookups are paced 6 s apart.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The NVD, CISA KEV and EPSS data keep their own terms of use.
